@@ -21,7 +21,8 @@ go.work.sum
 # Ignore any temporary files
 *.tmp
 *.log
-
+temp
+./temp
 # Ignore IDE specific files (for example, from VSCode)
 .vscode/
 .idea/

@@ -7,7 +7,7 @@ import (
 
 // SetupRouting configures the input capture for page navigation.
 // I know there could be a better way to do this but I am not that good at golang.
-func SetupRouting(pages *tview.Pages, page1, page2, page3 *tview.Box) {
+func SetupRouting(pages *tview.Pages, page1, page2, page3 *tview.Flex) {
 	page1.SetInputCapture(func(event *tcell.EventKey) *tcell.EventKey {
 		if event.Key() == tcell.KeyRune {
 			switch event.Rune() {

@@ -4,7 +4,8 @@ import (
 	"github.com/rivo/tview"
 )
 
-func CreateSettingsPage() *tview.Box {
-	page := tview.NewBox().SetTitle("Settings").SetBorder(true)
+func CreateSettingsPage() *tview.Flex {
+	page := tview.NewFlex()
+	page.SetTitle("Settings").SetBorder(true)
 	return page
 }

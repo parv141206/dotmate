@@ -18,7 +18,7 @@ func main() {
 	// The first page shows all the dot files and the second page is a form which allows you to add a new dot file.
 	// The third page contains some settings for the application.
 	// I have splitted the pages into their own files. Have a look at the pages folder.
-	page1 := pages.CreateDotfilesPage()
+	page1 := pages.CreateDotfilesPage(app)
 	page2 := pages.CreateAddDotfilesPage()
 	page3 := pages.CreateSettingsPage()
 
